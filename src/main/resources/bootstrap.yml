@@ -1,0 +1,8 @@
+spring:
+  cloud:
+    config:
+      server:
+        bootstrap: true
+        git:
+          uri: https://bitbucket.org/pragtics/spring-boot-external-configuration.git
+          search-paths: configuration
